@@ -25,12 +25,11 @@
 - 만약 상사에게 줘야하는 금액 ```to_boss```가 10원 미만이라면, 
 현재 상사가 금액을 모두 가져감
 
-- ```to_boss```가 10원 이상이라면
-5-1. ```boss_sell``` = 현재 상사가 가져가는 금액 = to_boss의 90% = to_boss * 0.9
-- ```boss.addSell(boss_sell);```
-5-2. 현재 상사의 상사에게 보내는 금액 to_boss = to_boss - boss_sell
-5-3. 현재 상사의 상사 이름 = boss_name = boss.boss;
+- ```to_boss```가 10원 이상이라면<br/>
+5-1. ```boss_sell``` = 현재 상사가 가져가는 금액 = to_boss의 90% = to_boss * 0.9<br/>
+```boss.addSell(boss_sell);```<br/><br/>
+5-2. 현재 상사의 상사에게 보내는 금액 to_boss = to_boss - boss_sell<br/>
+5-3. 현재 상사의 상사 이름 = boss_name = boss.boss;<br/>
 
 
 6. 모든 유저가 판매한 금액을 answer 리스트에 담아 반환
-
